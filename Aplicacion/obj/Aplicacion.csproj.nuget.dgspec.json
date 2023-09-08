@@ -32,8 +32,8 @@
               "C:\\Users\\APT01-62\\Documents\\c#\\tienda\\Persistencia\\Persistencia.csproj": {
                 "projectPath": "C:\\Users\\APT01-62\\Documents\\c#\\tienda\\Persistencia\\Persistencia.csproj"
               },
-              "C:\\Users\\APT01-62\\Documents\\c#\\tienda\\Seguridad\\Seguridad.csproj": {
-                "projectPath": "C:\\Users\\APT01-62\\Documents\\c#\\tienda\\Seguridad\\Seguridad.csproj"
+              "C:\\Users\\APT01-62\\Documents\\c#\\tienda\\seguridad\\Seguridad.csproj": {
+                "projectPath": "C:\\Users\\APT01-62\\Documents\\c#\\tienda\\seguridad\\Seguridad.csproj"
               }
             }
           }
@@ -201,14 +201,14 @@
         }
       }
     },
-    "C:\\Users\\APT01-62\\Documents\\c#\\tienda\\Seguridad\\Seguridad.csproj": {
+    "C:\\Users\\APT01-62\\Documents\\c#\\tienda\\seguridad\\Seguridad.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\APT01-62\\Documents\\c#\\tienda\\Seguridad\\Seguridad.csproj",
+        "projectUniqueName": "C:\\Users\\APT01-62\\Documents\\c#\\tienda\\seguridad\\Seguridad.csproj",
         "projectName": "Seguridad",
-        "projectPath": "C:\\Users\\APT01-62\\Documents\\c#\\tienda\\Seguridad\\Seguridad.csproj",
+        "projectPath": "C:\\Users\\APT01-62\\Documents\\c#\\tienda\\seguridad\\Seguridad.csproj",
         "packagesPath": "C:\\Users\\APT01-62\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\APT01-62\\Documents\\c#\\tienda\\Seguridad\\obj\\",
+        "outputPath": "C:\\Users\\APT01-62\\Documents\\c#\\tienda\\seguridad\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\APT01-62\\AppData\\Roaming\\NuGet\\NuGet.Config"

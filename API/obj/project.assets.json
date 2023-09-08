@@ -6014,8 +6014,8 @@
     },
     "Seguridad/1.0.0": {
       "type": "project",
-      "path": "../Seguridad/Seguridad.csproj",
-      "msbuildProject": "../Seguridad/Seguridad.csproj"
+      "path": "../seguridad/Seguridad.csproj",
+      "msbuildProject": "../seguridad/Seguridad.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6062,8 +6062,8 @@
             "C:\\Users\\APT01-62\\Documents\\c#\\tienda\\Aplicacion\\Aplicacion.csproj": {
               "projectPath": "C:\\Users\\APT01-62\\Documents\\c#\\tienda\\Aplicacion\\Aplicacion.csproj"
             },
-            "C:\\Users\\APT01-62\\Documents\\c#\\tienda\\Seguridad\\Seguridad.csproj": {
-              "projectPath": "C:\\Users\\APT01-62\\Documents\\c#\\tienda\\Seguridad\\Seguridad.csproj"
+            "C:\\Users\\APT01-62\\Documents\\c#\\tienda\\seguridad\\Seguridad.csproj": {
+              "projectPath": "C:\\Users\\APT01-62\\Documents\\c#\\tienda\\seguridad\\Seguridad.csproj"
             }
           }
         }

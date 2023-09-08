@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 namespace Persistencia;
 public class TiendaContext : DbContext
 {
-    public TiendaContext(DbContextOptions <TiendaContext> options) : base(options)
+    public TiendaContext(DbContextOptions options) : base(options)
     {
     }
 

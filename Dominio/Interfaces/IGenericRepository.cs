@@ -1,7 +1,7 @@
 using System.Linq.Expressions;
 using Dominio.Entities;
 
-namespace Dominio.interfaces;
+namespace Dominio.Interfaces;
     public interface IGenericRepository<T> where T : BaseEntity
     {
         Task<T> GetByIdAsync(int id);
@@ -19,7 +19,7 @@ namespace Dominio.interfaces;
         //elimar registros
         void RemoveRange(IEnumerable<T> entities);
         //actualizar un registro
-        Task<(int totalRegistros, IEnumerable<T> registros)> GetAllAsync(int pageIndex, int pageSize, string search);
+        //Task<(int totalRegistros, IEnumerable<T> registros)> GetAllAsync(int pageIndex, int pageSize, string search);
         void Update(T entity);
     
     } 

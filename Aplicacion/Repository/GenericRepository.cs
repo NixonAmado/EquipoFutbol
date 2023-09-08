@@ -2,8 +2,8 @@
 using System.Linq.Expressions;
 using Dominio.Entities;
 using Microsoft.EntityFrameworkCore;
-using Dominio.interfaces;
 using Persistencia;
+using Dominio.Interfaces;
 
 namespace Aplicacion.Repository;
 
@@ -59,8 +59,8 @@ namespace Aplicacion.Repository;
         _context.Set<T>().Update(entity);
     }
 
-    public Task<(int totalRegistros, IEnumerable<T> registros)> GetAllAsync(int pageIndex, int pageSize, string search)
-    {
-        throw new NotImplementedException();
-    }
+    // public Task<(int totalRegistros, IEnumerable<T> registros)> GetAllAsync(int pageIndex, int pageSize, string search)
+    // {
+    //     throw new NotImplementedException();
+    // }
 }

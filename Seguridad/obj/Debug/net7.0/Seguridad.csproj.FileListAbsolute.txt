@@ -1,4 +1,4 @@
-C:\Users\APT01-62\Documents\c#\tienda\Seguridad\bin\Debug\net7.0\Seguridad.deps.json
+C:\Users\APT01-62\Documents\c#\tienda\seguridad\bin\Debug\net7.0\Seguridad.deps.json
 C:\Users\APT01-62\Documents\c#\tienda\Seguridad\bin\Debug\net7.0\Seguridad.dll
 C:\Users\APT01-62\Documents\c#\tienda\Seguridad\bin\Debug\net7.0\Seguridad.pdb
 C:\Users\APT01-62\Documents\c#\tienda\Seguridad\obj\Debug\net7.0\Seguridad.GeneratedMSBuildEditorConfig.editorconfig
@@ -8,4 +8,4 @@ C:\Users\APT01-62\Documents\c#\tienda\Seguridad\obj\Debug\net7.0\Seguridad.cspro
 C:\Users\APT01-62\Documents\c#\tienda\Seguridad\obj\Debug\net7.0\Seguridad.dll
 C:\Users\APT01-62\Documents\c#\tienda\Seguridad\obj\Debug\net7.0\refint\Seguridad.dll
 C:\Users\APT01-62\Documents\c#\tienda\Seguridad\obj\Debug\net7.0\Seguridad.pdb
-C:\Users\APT01-62\Documents\c#\tienda\Seguridad\obj\Debug\net7.0\ref\Seguridad.dll
+C:\Users\APT01-62\Documents\c#\tienda\seguridad\obj\Debug\net7.0\ref\Seguridad.dll
