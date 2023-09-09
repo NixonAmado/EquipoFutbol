@@ -7,10 +7,12 @@ namespace Dominio.Interfaces
 {
     public interface IUnitOfWork
     {
-        public IEquipo Equipos {get;set;}
-        public IJugador Jugadores {get;set;}
-        public IPais Paises {get;set;}
-        public IPosicion Posiciones {get;set;}
+        public IEquipo Equipos {get;}
+        public IJugador Jugadores {get;}
+        public IPais Paises {get;}
+        public IPersona Personas {get;}
+        public IPosicion Posiciones {get;}
+        public ITipoNomina TipoNominas {get;}
         Task<int> SaveAsync();
     }
 }
