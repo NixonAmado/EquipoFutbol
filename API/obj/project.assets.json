@@ -6014,8 +6014,8 @@
     },
     "Seguridad/1.0.0": {
       "type": "project",
-      "path": "../seguridad/Seguridad.csproj",
-      "msbuildProject": "../seguridad/Seguridad.csproj"
+      "path": "../Seguridad/Seguridad.csproj",
+      "msbuildProject": "../Seguridad/Seguridad.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6035,19 +6035,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\APT01-62\\.nuget\\packages\\": {}
+    "C:\\Users\\nixon\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\APT01-62\\Documents\\c#\\tienda\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\nixon\\OneDrive\\Documentos\\c#\\tienda\\api\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\APT01-62\\Documents\\c#\\tienda\\API\\API.csproj",
-      "packagesPath": "C:\\Users\\APT01-62\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\APT01-62\\Documents\\c#\\tienda\\API\\obj\\",
+      "projectPath": "C:\\Users\\nixon\\OneDrive\\Documentos\\c#\\tienda\\api\\API.csproj",
+      "packagesPath": "C:\\Users\\nixon\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nixon\\OneDrive\\Documentos\\c#\\tienda\\api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\APT01-62\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\nixon\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -6059,11 +6059,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\APT01-62\\Documents\\c#\\tienda\\Aplicacion\\Aplicacion.csproj": {
-              "projectPath": "C:\\Users\\APT01-62\\Documents\\c#\\tienda\\Aplicacion\\Aplicacion.csproj"
+            "C:\\Users\\nixon\\OneDrive\\Documentos\\c#\\tienda\\Aplicacion\\Aplicacion.csproj": {
+              "projectPath": "C:\\Users\\nixon\\OneDrive\\Documentos\\c#\\tienda\\Aplicacion\\Aplicacion.csproj"
             },
-            "C:\\Users\\APT01-62\\Documents\\c#\\tienda\\seguridad\\Seguridad.csproj": {
-              "projectPath": "C:\\Users\\APT01-62\\Documents\\c#\\tienda\\seguridad\\Seguridad.csproj"
+            "C:\\Users\\nixon\\OneDrive\\Documentos\\c#\\tienda\\Seguridad\\Seguridad.csproj": {
+              "projectPath": "C:\\Users\\nixon\\OneDrive\\Documentos\\c#\\tienda\\Seguridad\\Seguridad.csproj"
             }
           }
         }

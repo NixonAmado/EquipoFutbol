@@ -1,4 +1,6 @@
+using System.Reflection;
 using API.Extensions;
+using AspNetCoreRateLimit;
 using Microsoft.EntityFrameworkCore;
 using Persistencia;
 
@@ -8,11 +10,15 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
-builder.Services.AddHttpContextAccessor();
+//builder.Services.AddHttpContextAccessor();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.ConfigureCors();
+builder.Services.ConfigureRateLimiting();//para el ratelimitng
+builder.Services.AddAutoMapper(Assembly.GetEntryAssembly());//para poder usar mapping
+builder.Services.ConfigureApiVersioning();
+builder.Services.AddAplicationServices();
 builder.Services.AddDbContext<TiendaContext> (options => 
 {
     string connectionString = builder.Configuration.GetConnectionString("conexMySql");
@@ -29,6 +35,7 @@ if (app.Environment.IsDevelopment())
 
 
 app.UseHttpsRedirection();
+app.UseIpRateLimiting();
 app.UseCors("CorsPolicy");
 app.UseAuthorization();
 

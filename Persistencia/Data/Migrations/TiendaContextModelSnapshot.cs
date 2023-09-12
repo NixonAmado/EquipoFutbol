@@ -247,8 +247,7 @@ namespace Persistencia.Data.Migrations
 
             modelBuilder.Entity("Dominio.Entities.Persona", b =>
                 {
-                    b.Navigation("Jugador")
-                        .IsRequired();
+                    b.Navigation("Jugador");
                 });
 
             modelBuilder.Entity("Dominio.Entities.Posicion", b =>
