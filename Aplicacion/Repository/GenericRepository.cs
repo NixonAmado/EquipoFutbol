@@ -59,8 +59,16 @@ namespace Aplicacion.Repository;
         _context.Set<T>().Update(entity);
     }
 
-    // public Task<(int totalRegistros, IEnumerable<T> registros)> GetAllAsync(int pageIndex, int pageSize, string search)
-    // {
-    //     throw new NotImplementedException();
-    // }
-}
+    public virtual async Task<(int totalRegistros, IEnumerable<T> registros)>GetAllAsync(int PageIndex, int PageSize, string _search)
+    {
+        var totalRegistros = await _context.Set<T>().CountAsync();
+        var registros = await _context.Set<T>()
+                        .Skip((PageIndex -1 ) * PageSize)
+                        .Take(PageSize)
+                        .ToListAsync();
+        return(totalRegistros,registros);
+    }
+
+
+
+}   

@@ -21,5 +21,6 @@ namespace Dominio.Interfaces;
         //actualizar un registro
         //Task<(int totalRegistros, IEnumerable<T> registros)> GetAllAsync(int pageIndex, int pageSize, string search);
         void Update(T entity);
-    
+
+        Task<(int totalRegistros,IEnumerable<T> registros)>GetAllAsync(int pageIndex,int pageSize, string _search);
     } 

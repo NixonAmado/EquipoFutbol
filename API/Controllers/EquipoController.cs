@@ -1,6 +1,8 @@
 
 using Api.Controllers;
 using API.Dtos;
+using API.Helpers.Pager;
+using API.Helpers.Params;
 using AutoMapper;
 using Dominio.Entities;
 using Dominio.Interfaces;
@@ -38,10 +40,11 @@ namespace API.Controllers;
     [ApiVersion("1.1")]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
-    public async Task<ActionResult<IEnumerable<EquipoDto>>> Get()
+    public async Task<ActionResult<Pager<EquipoDto>>> Get([FromQuery] Params EquipoParams)
     {
-        var equipo = await _unitOfWork.Equipos.GetAllAsync();
-        return _mapper.Map<List<EquipoDto>>(equipo);
+        var equipo = await _unitOfWork.Equipos.GetAllAsync(EquipoParams.PageIndex,EquipoParams.PageSize,EquipoParams.Search);
+        var lstEquiposDto = _mapper.Map<List<EquipoDto>>(equipo.registros);
+        return new Pager<EquipoDto>(lstEquiposDto,equipo.totalRegistros,EquipoParams.PageIndex,EquipoParams.PageSize,EquipoParams.Search);
     }
 
     [HttpGet]
