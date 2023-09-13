@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\nixon\\.nuget\\packages\\": {}
+    "C:\\Users\\APT01-62\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nixon\\OneDrive\\Documentos\\c#\\tienda\\seguridad\\Seguridad.csproj",
+      "projectUniqueName": "C:\\Users\\APT01-62\\Documents\\c#\\tienda\\tienda\\seguridad\\Seguridad.csproj",
       "projectName": "Seguridad",
-      "projectPath": "C:\\Users\\nixon\\OneDrive\\Documentos\\c#\\tienda\\seguridad\\Seguridad.csproj",
-      "packagesPath": "C:\\Users\\nixon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nixon\\OneDrive\\Documentos\\c#\\tienda\\seguridad\\obj\\",
+      "projectPath": "C:\\Users\\APT01-62\\Documents\\c#\\tienda\\tienda\\seguridad\\Seguridad.csproj",
+      "packagesPath": "C:\\Users\\APT01-62\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\APT01-62\\Documents\\c#\\tienda\\tienda\\seguridad\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\nixon\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\APT01-62\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"

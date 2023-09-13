@@ -28,5 +28,20 @@ namespace Aplicacion.Repository;
                                 .ToListAsync();
         }
 
+        public override async  Task<(int totalRegistros,IEnumerable<Equipo> registros)> GetAllAsync(int pageIndex,int pageSize, string _search)
+        {
+            var query = _context.Equipos as IQueryable<Equipo>;
+            if(!string.IsNullOrEmpty(_search))
+            {
+                query = query.Where(p => p.Nombre.ToLower().Contains(_search));
+            }
+            var totalRegistros = await query.CountAsync();
+            var registros = await query
+                                  .Include(u => u.Personas)
+                                  .Skip((pageIndex - 1) * pageSize)
+                                  .Take(pageSize)
+                                  .ToListAsync();
+            return (totalRegistros, registros);
+        }
 
     }

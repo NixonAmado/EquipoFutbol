@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nixon\\OneDrive\\Documentos\\c#\\tienda\\Dominio\\Dominio.csproj": {}
+    "C:\\Users\\APT01-62\\Documents\\c#\\tienda\\tienda\\Dominio\\Dominio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nixon\\OneDrive\\Documentos\\c#\\tienda\\Dominio\\Dominio.csproj": {
+    "C:\\Users\\APT01-62\\Documents\\c#\\tienda\\tienda\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nixon\\OneDrive\\Documentos\\c#\\tienda\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\APT01-62\\Documents\\c#\\tienda\\tienda\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "C:\\Users\\nixon\\OneDrive\\Documentos\\c#\\tienda\\Dominio\\Dominio.csproj",
-        "packagesPath": "C:\\Users\\nixon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nixon\\OneDrive\\Documentos\\c#\\tienda\\Dominio\\obj\\",
+        "projectPath": "C:\\Users\\APT01-62\\Documents\\c#\\tienda\\tienda\\Dominio\\Dominio.csproj",
+        "packagesPath": "C:\\Users\\APT01-62\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\APT01-62\\Documents\\c#\\tienda\\tienda\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nixon\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\APT01-62\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"

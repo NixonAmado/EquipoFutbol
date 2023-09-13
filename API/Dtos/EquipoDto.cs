@@ -6,7 +6,6 @@ namespace API.Dtos
     {
         public int IdEquipo {get;set;}        
         public string NombreEquipo { get; set; }
-        public ICollection<Persona> Personas { get; set; }
 
     }
 }

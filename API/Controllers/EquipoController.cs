@@ -60,17 +60,17 @@ namespace API.Controllers;
     [HttpPost]
     [ProducesResponseType(StatusCodes.Status201Created)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
-    public async Task<ActionResult<EquipoDto>> Post(EquipoDto _equipoDto)
+    public async Task<ActionResult<EquipoFullDto>> Post(EquipoFullDto _equipoFullDto)
     {
-        var equipo = _mapper.Map<Equipo>(_equipoDto);
+        var equipo = _mapper.Map<Equipo>(_equipoFullDto);
         this._unitOfWork.Equipos.Add(equipo);
         await _unitOfWork.SaveAsync();
         if (_unitOfWork == null)
         {
             return BadRequest();            
         }
-        equipo.Id = _equipoDto.IdEquipo;
-        return CreatedAtAction(nameof(Post), new {id = _equipoDto.IdEquipo}, _equipoDto );
+        equipo.Id = _equipoFullDto.Id;
+        return CreatedAtAction(nameof(Post), new {id = _equipoFullDto.Id}, _equipoFullDto );
     }
 
     [HttpPut("{id}")]

@@ -9,7 +9,6 @@ namespace Dominio.Interfaces;
         //busquedas booleanas
         IEnumerable<T> Find(Expression<Func<T, bool>> expression);
         //paginacion
-
         //agregar elementos
         void Add(T entity);
         //agregar un conjunto de elementos

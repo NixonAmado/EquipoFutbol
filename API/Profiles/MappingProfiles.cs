@@ -12,7 +12,8 @@ public class MappingProfiles : Profile
             .ForMember(dest => dest.IdEquipo, opt => opt.MapFrom(src => src.Id))
             .ForMember(dest => dest.NombreEquipo, opt => opt.MapFrom(src => src.Nombre))
             .ReverseMap();
-
+            
+            CreateMap<Equipo, EquipoFullDto>().ReverseMap();
             CreateMap<Jugador, JugadorDto>()
             .ForMember(dest => dest.IdJugador, opt => opt.MapFrom(src => src.Id))
             .ForMember(dest => dest.DorsalJugador, opt => opt.MapFrom(src => src.Dorsal))
